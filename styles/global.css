@@ -52,7 +52,7 @@
 }
 
 body {
-    overflow: hidden;
+    background-color: #1E1E1E;
     
     font: var(--body-md);
     color: var(--text-body);
