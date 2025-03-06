@@ -49,6 +49,8 @@
     --body-md: 400 1rem var(--font-open-sans);
     --body-sm: 400 .87rem var(--font-open-sans);
     --body-xs: 400 .75rem var(--font-open-sans);
+
+    zoom: 60%;
 }
 
 body {
@@ -56,4 +58,8 @@ body {
     
     font: var(--body-md);
     color: var(--text-body);
+}
+
+.flex {
+    display: flex;
 }

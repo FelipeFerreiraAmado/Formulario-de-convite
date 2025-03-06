@@ -41,6 +41,6 @@ main {
     border-radius: 0.75rem;
     
     & .main-container {
-        
+        padding: 5rem;
     }
 }
