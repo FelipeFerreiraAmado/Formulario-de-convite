@@ -1,0 +1,32 @@
+.about > .grid {
+    gap: 1rem;
+    grid-template-areas: 
+        "event-name event-name"
+        "start-date end-date"
+        "meeting place"
+        "description description";
+}
+
+.event-name {
+    grid-area: event-name;
+}
+
+.start-date {
+    grid-area: start-date;
+}
+
+.end-date {
+    grid-area: end-date;
+}
+
+.meeting {
+    grid-area: meeting;
+}
+
+.place {
+    grid-area: place;
+}
+
+.description {
+    grid-area: description;
+}

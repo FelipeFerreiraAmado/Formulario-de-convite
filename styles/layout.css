@@ -37,10 +37,13 @@ aside {
 }
 
 main {
+    overflow: auto;
     background-color: var(--shape-body);
     border-radius: 0.75rem;
+    padding: 5rem;
     
     & .main-container {
-        padding: 5rem;
+        max-width: 35rem;
+        margin: auto;
     }
 }

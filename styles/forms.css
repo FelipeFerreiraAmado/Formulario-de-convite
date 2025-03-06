@@ -1,1 +1,24 @@
 @import url(fields/index.css);
+
+h1 {
+    font: var(--heading-md);
+    margin-bottom: 2.5rem;
+}
+
+.fieldset-title {
+    gap: .75rem;
+    
+    & > svg {
+        width: 1.5rem;
+        height: 1.5rem;
+        color: var(--input-placeholder);
+    }
+
+    legend {
+        font: var(--heading-sm);
+    }
+}
+
+fieldset {
+    border: none;
+}

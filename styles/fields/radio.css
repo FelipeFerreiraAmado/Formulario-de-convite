@@ -1,0 +1,40 @@
+.radio-input {
+    background-color: var(--input-base);
+    border: 1px solid var(--input-stroke);
+    border-radius: .5rem;
+    height: 3rem;
+
+    & > .flex {
+        height: 100%;
+        
+        & > .radio-inner {
+            width: 100%;
+
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .5rem;
+
+            margin: .25rem;
+            border-radius: .25rem;
+            
+            & input,
+            & input:focus,
+            & input:hover {
+                all: unset;
+                position: absolute;
+                inset: 0;
+                cursor: pointer;
+            }
+
+            &:has(:checked) {
+                background-color: var(--shape-button);
+
+                svg {
+                    color: var(--brand-light);
+                }
+            }
+        }
+    }
+}
