@@ -30,6 +30,10 @@
 
             &:has(:checked) {
                 background-color: var(--shape-button);
+                
+                label {
+                    font-weight: 600;
+                }
 
                 svg {
                     color: var(--brand-light);

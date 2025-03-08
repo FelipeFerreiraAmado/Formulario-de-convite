@@ -8,6 +8,7 @@ input, textarea {
 
     resize: none;
     font: var(--body-md);
+    color: var(--text-body);
 
     &:hover,
     &:focus {

@@ -1,0 +1,54 @@
+.event-theme {
+
+    & .radio-wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: .5rem;
+        
+        & .radio-inner {
+            position: relative;
+            display: grid;
+            justify-content: center;
+            gap: .5rem;
+
+            background-color: var(--shape-button);
+            border-radius: .5rem;
+            border: 1px solid var(--input-stroke);
+
+            &:hover,
+            &:focus {
+                outline: 2px solid var(--brand-light);
+                outline-offset: -2px;
+                border-radius: .5rem;
+            }
+            
+            input {
+                all: unset;
+                position: absolute;
+                inset: 0;
+                
+                cursor: pointer;
+                
+            }
+            
+            &:has(:checked) {
+                outline: 2px solid var(--brand-light);
+                outline-offset: -2px;
+            }
+
+            img {
+                padding: .25rem .25rem 0;
+                max-width: 100%;
+                height: auto;
+                border-radius: .5rem;
+            }
+
+            label {
+                text-align: center;
+                padding-bottom: .5rem;
+                font: var(--body-sm);
+                color: var(--text-heading);
+            }
+        }
+    }
+}
