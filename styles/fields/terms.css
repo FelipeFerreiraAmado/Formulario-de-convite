@@ -1,0 +1,37 @@
+.terms-inner {
+    position: relative;
+    gap: 12px;
+    align-items: flex-start;
+
+    .checkbox-image {
+        flex: 0 0 20px;
+        height: 20px;
+        background-image: url(../../assets/icons/checkbox.svg);
+        margin-right: 12px;
+    }
+
+    input {
+        all: unset;
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    &:has(:checked) .checkbox-image {
+        background-image: url(../../assets/icons/checkbox-check.svg);
+    }
+
+    a { 
+        cursor: pointer;
+        color: var(--brand-light);
+        margin-inline: 5px;
+    }
+
+    label {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        flex-grow: 1;
+    }
+}

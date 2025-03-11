@@ -1,0 +1,23 @@
+.submit-button {
+    margin-top: 3rem;
+
+    button {
+        background-color: var(--brand-dark);
+        border: none;
+        padding: 13px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        justify-self: end;
+    }
+
+    img {
+        width: 20px;
+        height: auto;
+    }
+
+    p {
+        color: var(--text-heading);
+        font: var(--body-md);
+        font-weight: 500;
+    }
+}
