@@ -42,10 +42,7 @@ label {
     font: var(--body-sm);
     color: var(--text-body);
     display: block;
-
-    &:not(.radio-inner > label) {
-        margin-bottom: .75rem;
-    }
+    margin-bottom: .75rem;
 }
 
 .fieldset-title {

@@ -50,7 +50,7 @@
     --body-sm: 400 .87rem var(--font-open-sans);
     --body-xs: 400 .75rem var(--font-open-sans);
 
-    /* zoom: 60%; */
+    /* zoom: 80%; */
 }
 
 body {
@@ -74,4 +74,20 @@ body {
 
 svg {
     color: var(--input-placeholder);
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.gap-12 {
+    gap: .75rem;
+}
+
+.gap-16 {
+    gap: 1rem;
+}
+
+.h-43 {
+    height: 43px;
 }

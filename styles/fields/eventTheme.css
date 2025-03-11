@@ -1,4 +1,9 @@
 .event-theme {
+    margin-bottom: 1.75rem;
+
+    & > .event-theme-label {
+        margin-bottom: 1rem;
+    }
 
     & .radio-wrapper {
         display: grid;
@@ -21,7 +26,7 @@
                 outline-offset: -2px;
                 border-radius: .5rem;
             }
-            
+
             input {
                 all: unset;
                 position: absolute;
@@ -51,4 +56,8 @@
             }
         }
     }
+}
+
+.theme-card > label {
+    margin-bottom: 0;
 }
