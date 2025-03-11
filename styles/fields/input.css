@@ -48,3 +48,37 @@ label {
 .fieldset-title {
     margin-bottom: 1.5rem;
 }
+
+input:invalid {
+    border: 1px solid var(--danger);
+}
+
+.error {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font: var(--body-xs);
+    color: var(--danger);
+
+    img {
+        max-width: 1rem;
+        height: auto;
+    }
+}
+
+input:valid + .error {
+    display: none;
+}
+
+.input-user-name {
+    margin-bottom: 1rem;
+
+    input {
+        margin-bottom: .5rem;
+    }
+}
+
+.user-contact {
+    border-bottom: 1px solid var(--input-stroke);
+    padding-bottom: 3rem;
+}

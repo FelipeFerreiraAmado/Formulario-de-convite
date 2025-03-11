@@ -91,3 +91,11 @@ svg {
 .h-43 {
     height: 43px;
 }
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
